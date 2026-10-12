@@ -10,6 +10,11 @@ Repository: https://github.com/YOUR_GITHUB_USERNAME/beginner-web-py
 2. Install Git: https://git-scm.com/downloads (if not installed)
 3. Create the empty repository on GitHub named `beginner-web-py` at https://github.com/new (if you haven't already)
 
+## Download or Clone this project (if you haven't)
+
+- **Download ZIP**: Go to https://github.com/sometri/beginner-web-py -> Click "Code" (green button) -> "Download ZIP". Extract to your computer.
+- **Clone with Git**: Open terminal and run `git clone https://github.com/sometri/beginner-web-py.git`
+
 ## 1. Check if Git is installed
 
 Open your terminal (Command Prompt, PowerShell, or Terminal) and run:
