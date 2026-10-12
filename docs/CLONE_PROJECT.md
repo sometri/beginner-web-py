@@ -2,8 +2,8 @@
 
 This guide shows how to copy (clone) **this** project from GitHub onto your own computer.
 
-**Repository:** https://github.com/<your-github-username>/beginner-web-py
-**Clone URL (HTTPS):** `https://github.com/<your-github-username>/beginner-web-py.git`
+**Repository:** https://github.com/sometri/beginner-web-py
+**Clone URL (HTTPS):** `https://github.com/sometri/beginner-web-py.git`
 
 ---
 
@@ -24,6 +24,10 @@ This guide shows how to copy (clone) **this** project from GitHub onto your own 
 
     Or download it from https://git-scm.com/downloads.
 
+- **Python 3.x** installed (to run the Flask app).
+  - Check: `python --version`
+  - If not, install from https://www.python.org/downloads/
+
 - If the repo is **private**, you must be logged in / authorized (see Step 3).
 
 ---
@@ -34,7 +38,7 @@ Open a terminal (PowerShell, Command Prompt, or Git Bash) and go to a place wher
 keep your code, for example:
 
 ```bash
-cd path/to/your/projects
+cd D:\py
 ```
 
 ---
@@ -49,20 +53,20 @@ that private repos require authentication.
 Anyone can clone it with no login:
 
 ```bash
-git clone https://github.com/<your-github-username>/beginner-web-py.git
+git clone https://github.com/sometri/beginner-web-py.git
 ```
 
 ### Option B — Private repository
 
 Only you (or invited collaborators) can clone it. Git will ask for credentials:
 
-- **Username:** your GitHub username (e.g. `<your-github-username>`)
+- **Username:** your GitHub username (e.g. `sometri`)
 - **Password:** a **Personal Access Token** (NOT your account password)
   - Create one at: GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic)
   - Give it the `repo` scope.
 
 ```bash
-git clone https://github.com/<your-github-username>/beginner-web-py.git
+git clone https://github.com/sometri/beginner-web-py.git
 ```
 
 > Tip: save the token so you don't retype it — use Git Credential Manager (bundled with
@@ -70,7 +74,7 @@ git clone https://github.com/<your-github-username>/beginner-web-py.git
 
 ### Get the exact URL
 
-On GitHub, open https://github.com/<your-github-username>/beginner-web-py, click the green **Code**
+On GitHub, open https://github.com/sometri/beginner-web-py, click the green **Code**
 button, and copy the **HTTPS** URL.
 
 ---
@@ -85,7 +89,35 @@ Everything from the repo is now on your PC.
 
 ---
 
-## 5. (Optional) Keep it up to date
+## 5. Run the project
+
+1. Create a virtual environment:
+
+   ```bash
+   python -m venv .venv
+   ```
+
+2. Activate it:
+   - Windows: `.venv\Scripts\activate`
+   - Mac/Linux: `source .venv/bin/activate`
+
+3. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Start the app:
+
+   ```bash
+   python app.py
+   ```
+
+5. Open your browser at http://localhost:5000
+
+---
+
+## 6. (Optional) Keep it up to date
 
 Later, to pull the latest changes from GitHub:
 
@@ -101,7 +133,7 @@ If you have the GitHub CLI installed and logged in (`gh auth login`), you can cl
 with a shorter command, and it handles private-repo auth automatically:
 
 ```bash
-gh repo clone <your-github-username>/beginner-web-py
+gh repo clone sometri/beginner-web-py
 ```
 
 ---
@@ -114,4 +146,5 @@ gh repo clone <your-github-username>/beginner-web-py
 | `Repository not found` on a private repo | Sign in, or use a Personal Access Token with the `repo` scope. |
 | `Authentication failed` | Use a **token**, not your account password. |
 | `Support for password authentication was removed` | Same as above — use a token or `gh auth login`. |
+| `python: command not found` | Install Python (Step 1) and reopen the terminal. |
 | Wrong branch / missing files | You are on the default branch (`main`); run `git checkout main` if needed. |
