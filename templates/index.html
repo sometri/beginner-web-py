@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Beginner Web Project</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Beginner Web Project (Python)</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
   <div class="container">
     <h1>Hello, World!</h1>
-    <p>Simple HTML, CSS, and JavaScript project</p>
+    <p>Simple Python Flask web app</p>
     <button id="toggle">Toggle Background</button>
   </div>
-  <script src="script.js"></script>
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
 </html>
