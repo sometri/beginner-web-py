@@ -114,4 +114,4 @@ The first time you push, use `-u`. Next time, just `git push` is enough.
 - **Check what will be committed**: `git diff --cached`
 - **Push again later**: After making changes, just run `git add .`, `git commit -m "your message"`, `git push`
 - **Run locally**: See README.md for how to run the Flask app
-- **SSH instead of HTTPS**: If you prefer SSH, replace the URL with `git@github.com:sometri/beginner-web-py.git`
+- **SSH instead of HTTPS**: If you prefer SSH, replace the URL with `git@github.com:YOUR_GITHUB_USERNAME/beginner-web-py.git`
