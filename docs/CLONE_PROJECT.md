@@ -2,8 +2,8 @@
 
 This guide shows how to copy (clone) **this** project from GitHub onto your own computer.
 
-**Repository:** https://github.com/YOUR_GITHUB_USERNAME/beginner-web-py
-**Clone URL (HTTPS):** `https://github.com/YOUR_GITHUB_USERNAME/beginner-web-py.git`
+**Repository:** https://github.com/<your-github-username>/beginner-web-py
+**Clone URL (HTTPS):** `https://github.com/<your-github-username>/beginner-web-py.git`
 
 ---
 
@@ -22,7 +22,7 @@ This guide shows how to copy (clone) **this** project from GitHub onto your own 
     winget install Git.Git
     ```
 
-  - Or download it from https://git-scm.com/downloads.
+    Or download it from https://git-scm.com/downloads.
 
 - If the repo is **private**, you must be logged in / authorized (see Step 3).
 
@@ -34,7 +34,7 @@ Open a terminal (PowerShell, Command Prompt, or Git Bash) and go to a place wher
 keep your code, for example:
 
 ```bash
-cd D:\py
+cd path/to/your/projects
 ```
 
 ---
@@ -49,20 +49,20 @@ that private repos require authentication.
 Anyone can clone it with no login:
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/beginner-web-py.git
+git clone https://github.com/<your-github-username>/beginner-web-py.git
 ```
 
 ### Option B — Private repository
 
 Only you (or invited collaborators) can clone it. Git will ask for credentials:
 
-- **Username:** your GitHub username (e.g. `YOUR_GITHUB_USERNAME`)
+- **Username:** your GitHub username (e.g. `<your-github-username>`)
 - **Password:** a **Personal Access Token** (NOT your account password)
   - Create one at: GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic)
   - Give it the `repo` scope.
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/beginner-web-py.git
+git clone https://github.com/<your-github-username>/beginner-web-py.git
 ```
 
 > Tip: save the token so you don't retype it — use Git Credential Manager (bundled with
@@ -70,7 +70,7 @@ git clone https://github.com/YOUR_GITHUB_USERNAME/beginner-web-py.git
 
 ### Get the exact URL
 
-On GitHub, open https://github.com/YOUR_GITHUB_USERNAME/beginner-web-py, click the green **Code**
+On GitHub, open https://github.com/<your-github-username>/beginner-web-py, click the green **Code**
 button, and copy the **HTTPS** URL.
 
 ---
@@ -101,7 +101,7 @@ If you have the GitHub CLI installed and logged in (`gh auth login`), you can cl
 with a shorter command, and it handles private-repo auth automatically:
 
 ```bash
-gh repo clone YOUR_GITHUB_USERNAME/beginner-web-py
+gh repo clone <your-github-username>/beginner-web-py
 ```
 
 ---

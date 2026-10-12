@@ -179,7 +179,7 @@ gh auth status
 ### 3. Go to the project folder
 
 ```bash
-cd D:\py\sqlite
+cd path/to/your/beginner-web-py
 ```
 
 ### 4. Create the repo and push in one step
