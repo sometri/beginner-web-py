@@ -12,8 +12,8 @@ Repository: https://github.com/YOUR_GITHUB_USERNAME/beginner-web-py
 
 ## Download or Clone this project (if you haven't)
 
-- **Download ZIP**: Go to https://github.com/sometri/beginner-web-py -> Click "Code" (green button) -> "Download ZIP". Extract to your computer.
-- **Clone with Git**: Open terminal and run `git clone https://github.com/sometri/beginner-web-py.git`
+- **Download ZIP**: Go to https://github.com/YOUR_GITHUB_USERNAME/beginner-web-py -> Click "Code" (green button) -> "Download ZIP". Extract to your computer.
+- **Clone with Git**: Open terminal and run `git clone https://github.com/YOUR_GITHUB_USERNAME/beginner-web-py.git`
 
 ## 1. Check if Git is installed
 
