@@ -13,6 +13,7 @@ A simple beginner-friendly web project built with Python and Flask.
 1. Download or Clone this project
    - **Option A: Download ZIP**: Go to https://github.com/YOUR_GITHUB_USERNAME/beginner-web-py -> Click "Code" -> "Download ZIP" -> Extract it
    - **Option B: Clone with Git**: Open terminal and run `git clone https://github.com/YOUR_GITHUB_USERNAME/beginner-web-py.git`
+   - **Detailed guide**: See [docs/CLONE_PROJECT.md](docs/CLONE_PROJECT.md)
 2. Go to project folder: `cd beginner-web-py`
 3. Create a virtual environment: `python -m venv .venv`
 4. Activate it:
