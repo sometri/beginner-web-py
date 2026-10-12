@@ -2,26 +2,60 @@
 
 A simple beginner-friendly web project built with Python and Flask.
 
+## Project Structure
+
+```
+beginner-web-py/
+├── app.py              # Flask application entry point
+├── requirements.txt    # Python dependencies
+├── templates/
+│   └── index.html      # HTML template
+├── static/
+│   ├── css/
+│   │   └── styles.css  # CSS styles
+│   └── js/
+│       └── script.js   # JavaScript file
+├── README.md           # Project documentation
+├── PUSH_TO_GITHUB.md   # Quick push guide
+└── docs/
+    ├── README.md       # This file
+    ├── CLONE_PROJECT.md # Guide to clone project
+    └── PUSH_TO_GITHUB.md # Detailed push guide
+```
+
+## Requirements
+
+- Python 3.x
+- pip (Python package manager)
+
+## Usage
+
+1. Create a virtual environment:
+```bash
+python -m venv .venv
+```
+
+2. Activate the virtual environment:
+- Windows: `.venv\Scripts\activate`
+- Mac/Linux: `source .venv/bin/activate`
+
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the application:
+```bash
+python app.py
+```
+
+5. Open your browser and go to `http://localhost:5000`
+
 ## Features
 
 - Clean, responsive layout
-- Dark mode toggle
+- Dark mode toggle using JavaScript
 - Flask backend serving templates and static files
-
-## Getting Started
-
-1. Download or Clone this project
-   - **Option A: Download ZIP**: Go to https://github.com/YOUR_GITHUB_USERNAME/beginner-web-py -> Click "Code" -> "Download ZIP" -> Extract it
-   - **Option B: Clone with Git**: Open terminal and run `git clone https://github.com/YOUR_GITHUB_USERNAME/beginner-web-py.git`
-   - **Detailed guide**: See [docs/CLONE_PROJECT.md](docs/CLONE_PROJECT.md)
-2. Go to project folder: `cd beginner-web-py`
-3. Create a virtual environment: `python -m venv .venv`
-4. Activate it:
-   - Windows: `.venv\Scripts\activate`
-   - Mac/Linux: `source .venv/bin/activate`
-5. Install dependencies: `pip install -r requirements.txt`
-6. Run the app: `python app.py`
-7. Open http://localhost:5000 in your browser
 
 ## Tech Stack
 
