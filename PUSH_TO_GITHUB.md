@@ -57,11 +57,13 @@ Check if remote is already added:
 git remote -v
 ```
 
-If you don't see `origin`, add it:
+If you don't see `origin`, add it. Replace the URL with your own repository URL.
 
 ```bash
-git remote add origin https://github.com/sometri/beginner-web-py.git
+git remote add origin https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git
 ```
+
+For example: `https://github.com/sometri/beginner-web-py.git`
 
 ## 6. See what changed
 
