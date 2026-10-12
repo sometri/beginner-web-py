@@ -30,12 +30,14 @@ cd D:\py\beginner-web-py
 
 ## 3. Configure Git (set your identity)
 
-Replace the values with your actual GitHub info:
+Use YOUR actual GitHub username and email. For example:
 
 ```bash
-git config user.name "Sometri OENG"
-git config user.email "sometri1122@gmail.com"
+git config user.name "your_github_username"
+git config user.email "your_github_email@gmail.com"
 ```
+
+Change `your_github_username` to your GitHub username (e.g., `sometri`) and `your_github_email@gmail.com` to the email you used for GitHub.
 
 You only need to do this once per computer.
 
