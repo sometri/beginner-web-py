@@ -25,8 +25,10 @@ If you see something like `git version 2.xx.x`, you're good to go.
 In your terminal, change directory to the project:
 
 ```bash
-cd D:\py\beginner-web-py
+cd path/to/your/beginner-web-py
 ```
+
+(Replace with the actual folder path on your computer)
 
 ## 3. Configure Git (set your identity)
 
