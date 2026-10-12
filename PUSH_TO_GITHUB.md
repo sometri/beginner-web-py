@@ -2,7 +2,7 @@
 
 Follow these commands step by step to push this project to GitHub. Do them one by one in your terminal.
 
-Repository: https://github.com/sometri/beginner-web-py
+Repository: https://github.com/YOUR_GITHUB_USERNAME/beginner-web-py
 
 ## What you need first
 
