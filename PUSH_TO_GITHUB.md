@@ -63,7 +63,7 @@ If you don't see `origin`, add it. Replace the URL with your own repository URL.
 git remote add origin https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git
 ```
 
-For example: `https://github.com/sometri/beginner-web-py.git`
+For example: `https://github.com/YOUR_GITHUB_USERNAME/beginner-web-py.git`
 
 ## 6. See what changed
 
