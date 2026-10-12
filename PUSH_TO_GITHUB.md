@@ -7,8 +7,8 @@ Repository: https://github.com/sometri/beginner-web-py
 ## 1. Configure Git (if not set)
 
 ```bash
-git config user.name "Sometri OENG"
-git config user.email "sometri1122@gmail.com"
+git config user.name "your github username"
+git config user.email "your email for github"
 ```
 
 ## 2. Add all files
